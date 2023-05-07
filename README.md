@@ -1,24 +1,5 @@
 # DS-404
-Skip to content
-DS-1228
-/
-DS-404
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Beta Try the new code view
-DS-404/dilber redmy.txt
-@DS-1228
-DS-1228 Add files via upload
- 1 contributor
-27 lines (20 sloc)  1.16 KB
+
 # Cloning Tool 
 
 ![Made in Pakistan](https://img.shields.io/badge/MADE%20IN%20-PAKISTAN-green?style=for-the-badge&logo=appveyor)
@@ -45,19 +26,3 @@ python Pitafia.py
 <a href="https://youtube.com/@dilberali5529"><img title="YouTube" src="https://img.shields.io/badge/YOUTUBE-red?style=for-the-badge&logo=YouTube"></a>
 <a href="https://github.com/Dilber1234"><img title="Github" src="https://img.shields.io/badge/Github-Dilber1234-green?style=for-the-badge&logo=github"></a>
  
-
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-DS-404/dilber redmy.txt at main · DS-1228/DS-404
